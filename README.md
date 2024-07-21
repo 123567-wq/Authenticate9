@@ -22,15 +22,24 @@ This project is a comprehensive automation framework designed to automate the pr
 - Node.js (for Cypress)
 - Python 3.x (for backend automation and Locust)
    
-##Install Cypress dependencies:
+## Install Cypress dependencies:
+
 - npm install
-##Open Cypress:
+  
+### Open Cypress:
+
 -npm run test:ecommerce.spec.js
-##Backend Automation
+
+### Backend Automation
+
 -python3 ecomm_python.py
-##Run Locust:
+
+### Run locust:
+
 -locust -f performance_test.py
 
+### OWASP ZAP:
 
+-zap-cli quick-scan --start-url http://amazon.com --scanners all
 
 
