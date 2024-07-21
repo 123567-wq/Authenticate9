@@ -41,5 +41,6 @@ This project is a comprehensive automation framework designed to automate the pr
 ### OWASP ZAP:
 
 -zap-cli quick-scan --start-url http://amazon.com --scanners all
+-zap-cli quick-scan --start-url http://flipkart.com --scanners all
 
 
